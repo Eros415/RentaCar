@@ -1,0 +1,289 @@
+@charset "utf-8";
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#Contenedor{
+	width: 1200px;
+	height: 1000px;
+	background: #D8D8D8;
+	margin: 0.5em auto;
+	padding: 0.5em;
+}
+
+#Cabezera{
+	height: 15%;
+	background: #A4A4A4;
+    border-radius: 1em;
+	margin: 1em;
+}
+
+#Menu{
+	height: 5%;
+	background: #424242;
+	border-radius: 1em;
+	margin: 1em;
+}
+
+#Contenido{
+	height: 53%;
+	
+}
+
+#PiedePagina{
+	height: 15%;
+	background: #424242;
+	border-radius: 1em;
+	margin: 1em;
+}
+
+#Secciones{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	width: 97%;
+	background: #A4A4A4;
+	border-radius: 1em;
+	margin: 1em;
+		
+}
+
+.articulo{
+	width: 97%;
+	height: 90%;
+	background: #424242;
+	border-radius: 1em;
+	margin: 1em;
+}
+
+.button{
+	background: #7f8c8d;
+	color: #fff;
+	display:inline-block;
+	font-size: 1.25em;
+	margin: 20px;
+	padding: 10px 0px;
+	text-align: center;
+	width: 200px;
+	text-decoration: none;
+	border-radius: 1em;
+	
+}
+
+.button span{
+	margin-right: 10px;
+}
+
+.button.blue{
+	background: #3498db;
+	box-shadow: 0px 3px 0px #266792;
+}
+
+.button.medium{
+	width: 340px;
+}
+
+.button:hover{
+	box-shadow: 0px 0px 0px;
+	padding-top: 7px;
+}
+
+.centrado{
+	text-align: center;
+	font-size: 3.5em;
+	position: absolute;
+	left: 50%;
+	top: 12%;
+	transform: translateX(-50%) translateY(-50%)
+}
+
+.justificar{
+	text-align: justify;
+	font-size: 1.5em;
+	margin: 1em;
+	padding: 1em;
+	
+}
+
+.imagencentrada{
+	align-content: center;
+	left: 50%;
+	top: 12%;
+	
+	
+}
+
+.redessociales{
+	margin-right: 1em;
+	border-radius: 0.5em;
+	
+}
+
+.Auto1:hover{
+	box-shadow: 0px 0px 0px;
+	padding-top: 7px;
+}
+
+.Auto2:hover{
+	box-shadow: 0px 0px 0px;
+	padding-top: 7px;
+}
+
+.Auto3:hover{
+	box-shadow: 0px 0px 0px;
+	padding-top: 7px;
+}
+
+.Despedida{
+	text-align: center;
+	font-size: 3.5em;
+	position:relative;
+	top: 27%;
+
+}
+
+#Menu{
+	background-color: #424242;
+}
+
+#Menu ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#Menu ul li{
+	display: inline-block;
+	position: relative;
+}
+
+#Menu li a{
+	color: white;
+	text-decoration: none;
+	display: block;
+	padding: 15px 110px;
+	border-radius: 1em;
+}
+
+#Menu ul li a:hover{
+	background-color: #A4A4A4;
+	transition: all 0.3s;
+}
+
+.submenu{
+	position: absolute;
+	background: #333333;
+	border-radius: 1em;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+}
+
+.submenu li a{
+	display: block;
+	padding: 15px;
+	color: #FFFFFF;
+	font-family: "Open sans";
+	text-decoration: none;
+
+}
+
+#Menu li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
